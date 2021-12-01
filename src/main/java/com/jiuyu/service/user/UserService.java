@@ -1,4 +1,4 @@
-package com.jiuyu.servlet.user;
+package com.jiuyu.service.user;
 
 import com.jiuyu.pojo.User;
 

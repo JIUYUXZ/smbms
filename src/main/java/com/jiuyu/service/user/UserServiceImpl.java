@@ -1,4 +1,4 @@
-package com.jiuyu.servlet.user;
+package com.jiuyu.service.user;
 
 import com.jiuyu.dao.BaseDao;
 import com.jiuyu.dao.user.UserDao;
