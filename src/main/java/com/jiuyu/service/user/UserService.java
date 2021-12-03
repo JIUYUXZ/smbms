@@ -8,8 +8,8 @@ public interface UserService {
     /**
      * 用户登录
      * @param userCode
-     * @param password
+     * @param userPassword
      * @return
      */
-    public User login(String userCode, String password) throws SQLException, ClassNotFoundException;
+    public User login(String userCode, String userPassword) throws SQLException, ClassNotFoundException;
 }
