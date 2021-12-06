@@ -9,7 +9,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class UserDaoImpl implements UserDao {
-    public User getLoginUsr(Connection connection, String userCode) throws SQLException {
+
+    public User getLoginUser(Connection connection, String userCode) throws SQLException {
+
 
         PreparedStatement pstm = null;
         ResultSet rs = null;
